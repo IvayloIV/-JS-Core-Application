@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prodavachnik</title>
+    <link rel="stylesheet" type="text/css" href="./styles/prodavachnik.css" />
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="../node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="./templates/header.js"></script>
+    <script src="scripts/displayElement.js"></script>
+    <script src="scripts/attachAllEvents.js"></script>
+    <script src="scripts/prodavachnik.js"></script>
+    <script src="scripts/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+<header id="menu" class="menu">
+</header>
+
+<main>
+    <section id="loadingBox" class="loadingBox">Loading ...</section>
+
+    <section id="infoBox" class="infoBox">Info</section>
+
+    <section id="errorBox" class="errorBox">Error</section>
+
+    <section id="viewHome" class="viewHome">
+        <h1 class="title">Welcome</h1>
+        <p class="body-text">Welcome to our advertisement site.</p>
+    </section>
+
+    <section id="viewReadMore"></section>
+    <section id="viewAds" class="viewAds"> </section>
+    <section id="viewCreateAd" class="viewCreateAd"></section>
+    <section id="viewRegister" class="viewRegister"></section>
+    <section id="viewLogin" class="viewLogin"></section>
+    <section id="viewEditAd" class="viewEditAd"></section>
+    <script>
+        startApp();
+    </script>
+</main>
+<footer>Prodavachnik - Simple SPA Application</footer>
+</body>
+</html>

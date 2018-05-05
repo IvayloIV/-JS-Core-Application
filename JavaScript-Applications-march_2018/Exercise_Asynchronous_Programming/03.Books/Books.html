@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+    <script src="solution.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+    <ul id="books"></ul>
+    <div>
+        Title:
+        <input type="text" id="title">
+    </div>
+    <div>
+        Author:
+        <input type="text" id="author">
+    </div>
+    <div>
+        Isbn:
+        <input type="text" id="isbn">
+    </div>
+    <button class="create">Add new book</button>
+</body>
+<script>
+    loadAllBooks();
+</script>
+</html>

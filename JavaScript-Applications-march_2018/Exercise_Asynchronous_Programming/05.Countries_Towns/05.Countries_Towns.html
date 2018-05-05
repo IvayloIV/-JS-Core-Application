@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+    <script src="solve.js"></script>
+</head>
+<body>
+    <button type="submit" id="load">Load</button>
+    <select id="country">
+    </select>
+    <button type="submit" id="delete" style="display:none">Delete</button>
+    <div>
+        Add new country:
+        <input type="text" id="name">
+        <button type="submit" id="createCountry">Create</button>
+    </div>
+    <div style="display:none" id="allTowns">
+        Towns:
+        <ul id="towns"></ul>
+        <div>
+            Create New Town:
+            <input type="text" id="townName">
+            <button type="submit" id="createTown">Create new town</button>
+        </div>
+    </div>
+</body>
+<script>
+    attachEvents();
+</script>
+</html>
