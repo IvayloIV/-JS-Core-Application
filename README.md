@@ -10,3 +10,5 @@
 6.  [**Exercise-Single Page Applications**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Exercise_Single_Page_Applications)
 7.  [**Templating**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Templating)
 8.  [**Exercise-Templating**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Exercise_Templating)
+9.  [**JS-Patterns**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/JS_Patterns)
+10.  [**Exercise-JS Patterns**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Exercise-JS_Patterns)
