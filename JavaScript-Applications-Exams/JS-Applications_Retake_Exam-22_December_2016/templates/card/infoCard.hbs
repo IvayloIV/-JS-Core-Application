@@ -1,0 +1,22 @@
+<table>
+    <thead>
+    <tr>
+        <th>Product</th>
+        <th>Description</th>
+        <th>Quantity</th>
+        <th>Total Price</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each cardInfo}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{description}}</td>
+            <td>{{quantity}}</td>
+            <td>{{totalPrice}}</td>
+            <td><a href="#/delete/{{id}}"><button>Discard</button></a></td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

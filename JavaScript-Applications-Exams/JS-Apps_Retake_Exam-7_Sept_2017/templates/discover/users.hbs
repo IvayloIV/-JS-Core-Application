@@ -1,0 +1,11 @@
+<div id="userlist">
+    {{#each users}}
+    <div class="userbox">
+        <div><a href="#/followPage/{{hisUsername}}" class="chirp-author">{{hisUsername}}</a></div>
+
+        <div class="user-details">
+            <span>{{totalFollowers}} followers</span>
+        </div>
+    </div>
+    {{/each}}
+</div>
