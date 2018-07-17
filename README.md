@@ -1,7 +1,10 @@
 <a href="#"><img src="https://i.imgur.com/KRl6anI.png"  width="1000" height="300"></img></a>
 
 ---
-## <b>JavaScript Applications</b>
+## <b>JavaScript Applications-July 2018</b>
+1.  [**Lab-AJAX**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-July_2018/Lab-AJAX)
+
+## <b>JavaScript Applications-March 2018</b>
 1.  [**Lab-AJAX**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Lab-AJAX)
 2.  [**REST and HTTP Requests-Exercise**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/REST_and_HTTP_Requests-Exercise)
 3.  [**Asynchronous Programming**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Asynchronous_Programming)
