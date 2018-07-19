@@ -3,6 +3,7 @@
 ---
 ## <b>JavaScript Applications - July 2018</b>
 1.  [**Lab-AJAX**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-July_2018/Lab-AJAX)
+2.  [**Exercise-REST and HTTP Requests**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-July_2018/Exercise-REST_and_HTTP_Requests)
 
 ## <b>JavaScript Applications - March 2018</b>
 1.  [**Lab-AJAX**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Lab-AJAX)
