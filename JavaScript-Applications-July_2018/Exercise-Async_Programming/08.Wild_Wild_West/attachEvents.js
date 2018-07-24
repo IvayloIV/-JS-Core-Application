@@ -107,6 +107,9 @@ function attachEvents() {
                     url: URL + '/players/' + el._id,
                     headers: AUTORIZATION
                 }).then(() => {
+					$('#save').css('display', 'none');
+					$('#reload').css('display', 'none');
+					$('#canvas').css('display', 'none');
                     $(this).parent().remove();
                 }).catch(handleError);
             }));
