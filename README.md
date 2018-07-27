@@ -8,6 +8,7 @@
 4.  [**Exercise-Async Programming**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-July_2018/Exercise-Async_Programming)
 5.  [**Lab-Single Page Applications**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-July_2018/Lab-Single_Page_Applications)
 6.  [**Exercise-Single_Page_Applications**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-July_2018/Exercise-Single_Page_Applications)
+7.  [**Lab-Templating**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-July_2018/Lab-Templating)
 
 ## <b>JavaScript Applications - March 2018</b>
 1.  [**Lab-AJAX**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Lab-AJAX)
