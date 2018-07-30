@@ -1,0 +1,4 @@
+function startApp() {
+    attachAllEvents();
+    loadWelcomePage();
+}
