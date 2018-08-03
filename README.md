@@ -31,3 +31,4 @@
 3.  [**JS-Applications Exam - 20 August 2017**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/JS_Applications_Exam-20_August_2017)
 4.  [**JS-Apps Retake Exam - 7 Sept 2017**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/JS-Apps_Retake_Exam-7_Sept_2017)
 5.  [**JS-Applications Exam - 15 April 2018**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/JS-Applications_Exam-15_April_2018)
+6.  [**JS-Applications Retake Exam - 8 May 2018**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/JS-Applications-Retake-Exam-8_May_2018)
