@@ -1,0 +1,9 @@
+{{#each products}}
+    <tr>
+        <td>{{name}}</td>
+        <td>{{description}}</td>
+        <td>{{quantity}}</td>
+        <td>{{totalPrice}}</td>
+        <td><a href="#/deleteProduct/{{_id}}"><button>Discard</button></a></td>
+    </tr>
+{{/each}}

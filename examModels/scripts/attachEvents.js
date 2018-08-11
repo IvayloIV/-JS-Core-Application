@@ -12,18 +12,12 @@ function attachAllEvents() {
 
     // Bind the info / error boxes
     $("#infoBox, #errorBox").on('click', function() {
-        $(this).fadeOut()
+        $(this).fadeOut();
     })
 
     // Attach AJAX "loading" event listener
     $(document).on({
-        ajaxStart: function() { $("#loadingBox").show() },
-        ajaxStop: function() { $("#loadingBox").hide() }
+        ajaxStart: function() { $("#loadingBox").show(); },
+        ajaxStop: function() { $("#loadingBox").hide(); }
     })
-
-    if (sessionStorage.getItem('authToken')) {
-        showUserHome()
-    } else {
-        showHomeView();
-    }
 }

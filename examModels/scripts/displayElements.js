@@ -1,6 +1,6 @@
 function showView(viewName) {
-    $('main > section').hide() // Hide all views
-    $('#' + viewName).show() // Show the selected view only
+    $('main > section').hide(); // Hide all views //TODO
+    $('#' + viewName).show(); // Show the selected view only
 }
 
 function showHideMenuLinks() {
@@ -15,40 +15,43 @@ function showHideMenuLinks() {
         $("#linkMenuLogin").hide();
         $("#linkMenuRegister").hide();
         $("#linkMenuUserHome").show();
-        $('#spanMenuLoggedInUser').text("Welcome, " + sessionStorage.getItem('username') + "!")
+        $('#spanMenuLoggedInUser').text("Welcome, " + sessionStorage.getItem('username') + "!");
     }
 }
 
 function showInfo(message) {
-    let infoBox = $('#infoBox')
-    infoBox.text(message)
-    infoBox.show()
+    let infoBox = $('#infoBox');
+    infoBox.text(message); //TODO
+    infoBox.show();
     setTimeout(function() {
         $('#infoBox').fadeOut()
     }, 3000)
 }
 
 function showError(errorMsg) {
-    let errorBox = $('#errorBox')
-    errorBox.text("Error: " + errorMsg)
-    errorBox.show()
+    let errorBox = $('#errorBox');
+    errorBox.text("Error: " + errorMsg); //TODO
+    errorBox.show();
+	setTimeout(function() {
+        $('#errorBox').fadeOut();
+    }, 3000)
 }
 
 function showHomeView() {
-    showView('viewAppHome')
+    showView('viewAppHome');
 }
 
 function showUserHome() {
     $('#viewUserHomeHeading').text(`Welcome, ${sessionStorage.getItem('username')}!`);
-    showView('viewUserHome')
+    showView('viewUserHome');
 }
 
 function showLoginView() {
-    showView('viewLogin')
-    $('#formLogin').trigger('reset')
+    showView('viewLogin');
+    $('#formLogin').trigger('reset');
 }
 
 function showRegisterView() {
-    $('#formRegister').trigger('reset')
-    showView('viewRegister')
+    $('#formRegister').trigger('reset');
+    showView('viewRegister');
 }

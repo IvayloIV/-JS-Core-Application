@@ -1,5 +1,9 @@
 function startApp() {
     showHideMenuLinks()
-    showView('viewHome')
+    if (sessionStorage.getItem('authToken')) {
+        showUserHome()
+    } else {
+        showHomeView();
+    }
     attachAllEvents()
 }

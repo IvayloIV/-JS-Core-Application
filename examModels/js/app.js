@@ -2,19 +2,8 @@ $(() => {
     const app = new Sammy("#main", function () {
         this.use('Handlebars', 'hbs');
 		
-		this.get('#/index', function (ctx) {
-            let isAuth = sessionStorage.getItem('authtoken');
-            if (isAuth) {
-                this.redirect('#/home');
-                return;
-            }
-            this.loadPartials({
-                header: './templates/common/header.hbs',
-                footer: './templates/common/footer.hbs'
-            }).then(function () {
-                this.partial('./templates/index.hbs');
-            });
-        });
+		this.get('index.html', welcomePage);
+		this.get('#/index', welcomePage);
 
         this.get('#/register', function (ctx) {
             let isAuth = sessionStorage.getItem('authtoken');
@@ -38,9 +27,9 @@ $(() => {
 			auth.register(username, password)
 				.then(function (userInfo) {
 					auth.saveSession(userInfo);
+					notify.showInfo('User registration successful.');
 					ctx.partials = this.partials;
 					ctx.redirect('#/home');
-					notify.showInfo('User registration successful.');
 				})
 				.catch(notify.handleError);
         });
@@ -66,9 +55,9 @@ $(() => {
 			auth.login(username, password)
 				.then(function (userInfo) {
 					auth.saveSession(userInfo);
+					notify.showInfo('Login successful.');
 					ctx.partials = this.partials;
 					ctx.redirect('#/home');
-					notify.showInfo('Login successful.');
 				})
 				.catch(notify.handleError);
         });
@@ -82,12 +71,26 @@ $(() => {
             auth.logout()
                 .then(function () {
                     sessionStorage.clear();
+					notify.showInfo('Logout successful.');
                     ctx.partials = this.partials;
                     ctx.redirect('#/index');
-                    notify.showInfo('Logout successful.');
                 })
                 .catch(notify.handleError)
         });
+		
+		function welcomePage(ctx) {
+            let isAuth = sessionStorage.getItem('authtoken');
+            if (isAuth) {
+                this.redirect('#/home');
+                return;
+            }
+            this.loadPartials({
+                header: './templates/common/header.hbs',
+                footer: './templates/common/footer.hbs'
+            }).then(function () {
+                this.partial('./templates/index.hbs');
+            });
+        }
     });
     app.run();
 });

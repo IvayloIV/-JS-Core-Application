@@ -1,0 +1,14 @@
+{{#each chirps}}
+<article class="chirp">
+    <div class="titlebar">
+        <a href="#/followPage/{{author}}" class="chirp-author">{{author}}</a>
+        {{#if isOwner}}
+            <a href="#/deleteChirp/{{_id}}">delete</a>
+        {{/if}}
+        <span class="chirp-time">{{data}}</span>
+    </div>
+    <p>{{text}}</p>
+</article>
+{{else}}
+    No chirps in database
+{{/each}}

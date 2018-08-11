@@ -1,0 +1,13 @@
+<form id="formSendMessage" method="post" action="#/sendMessage">
+    <div>Recipient:</div>
+    <div>
+        <select name="recipient" required id="msgRecipientUsername">
+            {{#each users}}
+            <option value="{{username}}">{{fullUsername}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <div>Message Text:</div>
+    <div><input type="text" name="text" required id="msgText" /></div>
+    <div><input type="submit" value="Send" /></div>
+</form>
