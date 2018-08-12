@@ -26,7 +26,7 @@
 10.  [**Exercise-JS Patterns**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-march_2018/Exercise-JS_Patterns)
 
 ## <b>JavaScript Applications - Exams</b>
-**With Routing**
+**With Routing :**
 1.  [**Messages**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/routing/Messages)
 2.  [**Market**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/routing/Market)
 3.  [**Chirper**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/routing/Chirper)
@@ -35,7 +35,7 @@
 6.  [**Airline**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/routing/Airline)
 7.  [**CarTube**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/routing/CarTube)
 
-**With jQuery**
+**With jQuery :**
 1.  [**Messages**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/withJquery/Messages)
 2.  [**Market**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/withJquery/Market)
 3.  [**Chirper**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/withJquery/Chirper)
