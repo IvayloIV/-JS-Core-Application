@@ -1,0 +1,18 @@
+{{> nav}}
+<div class="user-profile">
+
+    <img id="user-avatar-url" src="{{user.avatarUrl}}" alt="user-profile">
+    <h1>{{user.username}}</h1>
+    <h2>{{user.email}}</h2>
+
+    {{#if user.isOwner}}
+    <a id="deleteUserButton" href="#/deleteUser/{{user._id}}">DELETE USER!</a>
+    {{/if}}
+
+    <p id="user-listings-title">User Memes
+    </p>
+    <div class="user-meme-listings">
+        {{> articlesMeme}}
+    </div>
+</div>
+{{> footer}}

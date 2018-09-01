@@ -20,8 +20,13 @@ let notify = (() => {
         setTimeout(() => errorBox.fadeOut(), 3000);
     }
 
-    function handleError(reason) {
-        showError(reason.responseJSON.description);
+    function handleError(response) {
+        let errorMsg = JSON.stringify(response);
+        if (response.readyState === 0)
+            errorMsg = "Cannot connect due to network error.";
+        if (response.responseJSON && response.responseJSON.description)
+            errorMsg = response.responseJSON.description;
+        showError(errorMsg); //TODO
     }
 
     return {
