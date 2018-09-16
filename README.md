@@ -44,3 +44,4 @@
 5.  [**PointOfSale**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/withJquery/PointOfSale)
 6.  [**Airline**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/withJquery/Airline)
 7.  [**CarTube**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/withJquery/CarTube)
+8.  [**MemeLongue**](https://github.com/IvayloIV/JS-Core-Applications/tree/master/JavaScript-Applications-Exams/withJquery/MemeLongue)
