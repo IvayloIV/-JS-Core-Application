@@ -1,0 +1,10 @@
+{{> header}}
+    <main id="site-content">
+        <section class="detailsMyPet">
+            <h3>{{pet.name}}</h3>
+            <p>Pet counter: <i class="fas fa-heart"></i> {{pet.likes}}</p>
+            <p class="img"><img src="{{pet.imageURL}}"></p>
+            {{> formEditPet}}
+        </section>
+    </main>
+{{> footer}}
